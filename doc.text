@@ -1,0 +1,32 @@
+body font-family: Arial, sans-serif;
+   
+
+
+    .container background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .page h1 color: #1877f2;
+
+    page p color: #606770;
+
+    input senha 
+
+.botao background-color: #1877f2;
+color: white;
+
+
+button[type="submit"]:hover {
+    background-color: #165eab;
+
+    a {
+    color: #1877f2;
+    text-decoration: none;
+
+    hr border top  #dddfe2;
+
+    button.nova-conta {
+    background-color: #42b72a;
+    color: white;
+
+    button.conta-nova:hover {
+    background-color: #36a420;

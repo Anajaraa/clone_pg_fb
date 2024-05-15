@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+.container{
+   
+    width: 980px; /* largura do conteúdo */
+    height: 496px; /* altura do conteúdo */
+    padding: 20px; /* preenchimento */
+    
+    margin: auto; /* margem */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+    align-items: center;
+    
+    
+    
+     
+}
+
+    .page{
+    padding:0;
+    margin-left:50px;
+    align-items: center;
+    align-content: center;
+    margin-top: 150px;
+    width: 350px;
+    }
+    
+   
+
+    
+
+.login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-top:120px;
+    background-color: white;
+    
+    box-shadow:  0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    
+  }
+
+    
+
+
+hr {
+    border-top:#dddfe2 ;
+}  
+
+h1{
+    color:#1877f2;
+}
+
+p{
+    color:#606770;
+}
+
+/* header, aside, main, footer{
+    margin-bottom: 20px;
+} */
+
+button.nova-conta {
+    background-color: #42b72a;
+    color: white;
+}
+
+
+.botao{ 
+    background-color: #1877f2;
+color: white;
+padding: auto;
+width: 220px;
+height:30px;
+border-radius: 5px;
+border: 0;
+cursor: pointer;
+}
+
+.botao:hover{
+    background-color: #165eab;
+    
+}
+
+ .conta-nova {
+    background-color: #42b72a;
+    color: white;
+    padding: auto;
+width: 100px;
+height:30px;
+border-radius: 5px;
+border: 0;
+align-items: center;
+
+
+}
+    button.conta-nova:hover {
+    background-color: #36a420;
+    }
+
+    a {
+        color: #1877f2;
+        text-decoration: none;
+        font-size: 14px;
+         margin: 10px 0;
+    }
+      
+    .email  {
+        padding: 15px;
+        margin-bottom: 10px;
+        border: 1px solid #d3d5d7;
+        border-radius: 5px;
+        font-size: 15px;
+}
+     
+.senha{
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #d3d5d7;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.box{
+    box-sizing: border-box;
+    position: fixed;
+    text-align: right;
+    margin-top: 15px;
+    width: 75%;
+justify-content: right;
+text-align: right;
+
+
+}
+
